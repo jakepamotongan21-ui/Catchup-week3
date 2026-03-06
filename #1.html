@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service Inquiry</title>
+</head>
+
+<body>
+
+<h1>Service Inquiry Form</h1>
+
+
+<p><a href="index.html">Back to Home</a></p>
+
+
+<img src="e4c02d32431337.5605bf79cdb42.jpg" alt="Service Logo" width="100">
+
+<form>
+
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone Number:</label><br>
+    <input type="tel" id="phone" name="phone"
+           pattern="[0-9]{11}"
+           placeholder="09XXXXXXXXX"
+           required><br><br>
+
+    <label for="date">Preferred Service Date:</label><br>
+    <input type="date" id="date" name="date" required><br><br>
+
+    <label for="message">Service Details:</label><br>
+    <textarea id="message" name="message" required></textarea><br><br>
+
+    <input type="submit" value="Submit Inquiry">
+
+</form>
+
+</body>
+</html>
